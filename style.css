@@ -1,0 +1,224 @@
+html{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+}
+body{
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 1024px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+/* styling for contact us page main section starts*/
+.main2{
+    min-height: 300px;
+    padding-top: 40px;
+}
+
+.main2 p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* styling for contact us page main section ends*/
+.herobox1{
+    flex: 2; 
+    padding-right: 2rem; 
+    /*margin: auto;*/
+}
+a.mybutton{
+    font-family: 'Playfair Display', serif;
+    border: 1px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 15px 0 15px 0;
+}
+a.mybutton:hover{
+    color: #FA4083;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.521);
+    transition: 0.5s;
+}
+.herobox2{
+    flex: 1;
+    /*margin: auto;*/
+}
+.herobox2 img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+}
+p{
+    font-weight: 200;
+    line-height: 1.25rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card1{
+    background-image: url(images/image-background-card1-b.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+.card2{
+    background-image: url(images/image-background-card2-b.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+.card3{
+    background-image: url(images/image-background-card3-b.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+}
+.card1, .card2, .card3{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+.cards-h3{
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+}
+.cards-p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.cards i{
+    font-size: 56px;
+    padding-top: 50px;
+}
+.nav-button{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.tbox{
+    width: 500px;
+    padding: 40px;
+    border: 1px solid white;
+    margin-top: 40px;
+    box-sizing: border-box;
+    margin-right: 12px;
+}
+
+.tbox p:last-of-type{
+    padding-left: 40px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: -16px;
+}
+.nav-button:hover .dropdown{
+    display: block;
+}
+.dropdown .nav-button{
+    width: 150px;
+    background-color: #FC5E55;
+}
+.dropdown .nav-button a{
+    color: white;
+}
+form{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.input-wrapper{
+    margin-bottom: 10px;
+}
+.nextline{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=text], input[type=email]{
+    padding: 8px 8px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FC5E55;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input::placeholder{
+    color: rgba(128, 128, 128, 0.596);
+}
+
+input[type=submit]{
+    border: 1px solid white;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.521);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    color: #FC5E55;
+    transition: 600ms;
+}
+
+
